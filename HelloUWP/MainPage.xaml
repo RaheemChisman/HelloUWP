@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="HelloUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="159,72,0,0" TextWrapping="Wrap" Text="Please enter your name." VerticalAlignment="Top" Height="540" Width="671" FontSize="30"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Left" Margin="159,235,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="591" Height="68" FontSize="36"/>
+        <Button Content="Ok" Margin="822,235,0,0" VerticalAlignment="Top" Height="65" Width="120" Click="okClick"/>
+
+    </Grid>
+</Page>
